@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Test_XPayBack</string>
+    <string name="userName">User Name</string>
+    <string name="userEmail">sample@gmail.com</string>
+    <string name="profile">User Detils</string>
+    <string name="about_me">About</string>
+    <string name="my_desc">Description</string>
+    <string name="skills">skill</string>
+    <string name="job_success">Job</string>
+    <string name="eyecolor">Eye Color : </string>
+    <string name="address">Address</string>
+    <string name="conactInfo">Contact Info</string>
+    <string name="company">Company</string>
+    <string name="user">Users</string>
+</resources>

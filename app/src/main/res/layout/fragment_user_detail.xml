@@ -213,7 +213,7 @@
                     android:padding="13dp"
                     tools:text="@string/userName"
                     android:textAllCaps="true"
-                    android:textColor="@color/colorAccent"
+                    android:textColor="@color/colorPrimaryDark"
                     android:textSize="14sp"
                     android:textStyle="bold" />
 
@@ -231,7 +231,7 @@
                     android:padding="13dp"
                     tools:text="@string/userName"
                     android:textAllCaps="true"
-                    android:textColor="@color/colorAccent"
+                    android:textColor="@color/colorPrimaryDark"
                     android:textSize="14sp"
                     android:textStyle="bold" />
 
@@ -249,7 +249,7 @@
                     android:padding="13dp"
                     android:text="Review"
                     android:textAllCaps="true"
-                    android:textColor="@color/colorAccent"
+                    android:textColor="@color/colorPrimaryDark"
                     android:textSize="14sp"
                     android:textStyle="bold" />
 
@@ -282,7 +282,8 @@
                                 android:layout_height="wrap_content"
                                 android:text="@string/address"
                                 android:textSize="17sp"
-                                android:textStyle="bold" />
+                                android:textStyle="bold"
+                                android:textColor="@color/black"/>
 
                             <Space
                                 android:layout_width="wrap_content"
@@ -318,7 +319,8 @@
                             android:layout_height="wrap_content"
                             android:text="@string/about_me"
                             android:textSize="17sp"
-                            android:textStyle="bold" />
+                            android:textStyle="bold"
+                            android:textColor="@color/black"/>
 
                         <Space
                             android:layout_width="wrap_content"
@@ -344,7 +346,7 @@
                                 android:layout_height="40dp"
                                 android:background="@drawable/circular_grey_bordersolid"
                                 android:padding="10dp"
-                                android:src="@drawable/ic_email" />
+                                android:src="@drawable/call" />
 
                             <LinearLayout
                                 android:layout_width="wrap_content"
@@ -360,7 +362,8 @@
                                 android:layout_marginStart="20dp"
                                 tools:text="+91 7999193854"
                                 android:textSize="14sp"
-                                android:textColor="@color/colorAccent"/>
+                                android:autofillHints="name"
+                                android:textColor="@color/colorPrimaryDark"/>
                             </LinearLayout>
                             <ProgressBar
                                 android:id="@+id/progressBar"
@@ -387,7 +390,8 @@
                                 android:layout_height="40dp"
                                 android:background="@drawable/circular_grey_bordersolid"
                                 android:padding="10dp"
-                                android:src="@drawable/ic_profile" />
+                                android:src="@drawable/ic_profile"
+                                android:tint="@color/colorPrimaryDark"/>
 
                             <TextView
                                 android:id="@+id/tvemail"
@@ -411,7 +415,8 @@
                                 android:layout_height="40dp"
                                 android:background="@drawable/circular_grey_bordersolid"
                                 android:padding="10dp"
-                                android:src="@drawable/ic_profile" />
+                                android:src="@drawable/ic_profile"
+                                app:tint="@color/colorPrimaryDark" />
 
                             <TextView
                                 android:id="@+id/tvaddress1"
@@ -420,7 +425,7 @@
                                 android:layout_marginLeft="20dp"
                                 tools:text="Leeds, United Kingdom"
                                 android:textSize="15sp"
-                                android:textColor="@color/colorAccent"/>
+                                android:textColor="@color/colorPrimaryDark"/>
                         </LinearLayout>
 
                     </LinearLayout>
@@ -470,7 +475,7 @@
                                 android:layout_height="40dp"
                                 android:background="@drawable/circular_grey_bordersolid"
                                 android:padding="10dp"
-                                android:src="@drawable/ic_email" />
+                                android:src="@drawable/dots" />
 
                             <TextView
                                 android:id="@+id/tvuniversity"
@@ -493,7 +498,7 @@
                                 android:layout_height="40dp"
                                 android:background="@drawable/circular_grey_bordersolid"
                                 android:padding="10dp"
-                                android:src="@drawable/ic_profile" />
+                                android:src="@drawable/dots" />
 
                             <TextView
                                 android:id="@+id/tvmacAddress"
@@ -516,7 +521,7 @@
                                 android:layout_height="40dp"
                                 android:background="@drawable/circular_grey_bordersolid"
                                 android:padding="10dp"
-                                android:src="@drawable/ic_email" />
+                                android:src="@drawable/dots" />
 
                             <TextView
                                 android:id="@+id/tvbank"
@@ -571,7 +576,8 @@
                                 android:layout_height="wrap_content"
                                 tools:text="@string/company"
                                 android:textSize="14sp"
-                                android:textStyle="bold" />
+                                android:textStyle="bold"
+                                android:textColor="@color/black"/>
 
                             <TextView
                                 android:id="@+id/tvCompany"

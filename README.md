@@ -34,14 +34,10 @@ The project follows the MVVM architecture:
 - **ViewModel**: Contains ViewModel classes for managing UI-related data.
 
 ## Screenshots
-screenshots/1.splashscreenpng
-screenshots/2.Home.png
-screenshots/3.user deatail.png
-screenshots/4.user detail.png
-
-## Contributing
-
-Contributions are welcome! Please fork the repository and submit a pull request.
+1.screenshots/1.splashscreenpng
+2.screenshots/2.Home.png
+3.screenshots/3.user deatail.png
+4.screenshots/4.user detail.png
 
 ## Contact
 

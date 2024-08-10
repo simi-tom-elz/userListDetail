@@ -32,7 +32,8 @@ class UserDetailFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
          val userId = arguments?.getInt("userId") ?: -1
-        binding.ivBack.setOnClickListener(View.OnClickListener { activity?.finish(); })
+        binding.ivBack.setOnClickListener(View.OnClickListener { activity?.finish();
+        })
 
         viewModel.user.observe(viewLifecycleOwner) { user ->
             Glide.with(view.context)

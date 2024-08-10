@@ -1,7 +1,6 @@
-## Features
+## Incudes
 
-- **User List**: Displays a list of users with their basic information.
-- **User Detail**: Allows viewing detailed information about a selected user.
+- **User List & Detail**: Displays a list of users with their name,email & detailed information about a selected user.
 - **Paging**: Implements paging to load user data efficiently.
 - **Data Binding**: Uses data binding to bind UI components in layouts to data sources in the app using a declarative format.
 - **Network Requests**: Uses Retrofit to fetch data from a remote server.
@@ -11,10 +10,7 @@
 
 - **Kotlin**: Programming language used for development.
 - **MVVM Architecture**: Architecture pattern used to separate concerns.
-- **Android Jetpack Components**:
-  - **Compose**: Used for building UI components.
-  - **ViewModel**: Manages UI-related data in a lifecycle-conscious way.
-  - **LiveData**: Used to handle data in a lifecycle-aware manner.
+
 - **Retrofit**: HTTP client for making network requests.
 - **Glide**: Image loading library for Android.
 - **RecyclerView**: Displays a scrollable list of users.
@@ -23,9 +19,6 @@
 
 1. Clone the repository:
    git clone https://github.com/simi-tom-elz/userListDetail.git
-
-2. Open the project in Android Studio.
-3. Build the project and run it on an Android device or emulator.
 
 ## Usage
 
@@ -41,9 +34,10 @@ The project follows the MVVM architecture:
 - **ViewModel**: Contains ViewModel classes for managing UI-related data.
 
 ## Screenshots
-
+screenshots/1.splashscreenpng
 screenshots/2.Home.png
-
+screenshots/3.user deatail.png
+screenshots/4.user detail.png
 
 ## Contributing
 
